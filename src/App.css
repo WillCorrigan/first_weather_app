@@ -1,0 +1,98 @@
+.weathernames {
+    padding-top: 30vh;
+}
+
+.weatherDiv {
+    width: 50%;
+    font-size: 2em;
+    margin: auto;
+    color: black;
+
+}
+
+.Thunderstorm {
+    background: url('./thunderstorm.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+.Drizzle {
+    background: url('./drizzle.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ .Rain {
+    background: url('./rain.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ .Snow {
+    background: url('./snow.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+  .Mist, .Smoke, .Haze, .Dust, .Fog, .Sand, .Ash, .Squall {
+    background: url('./mist.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+  .Clear {
+    background: url('./sunny.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+  .Clouds {
+    background: url('./clouds.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ .Tornado {
+    background: url('./tornado.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+
+ .appdiv {
+    width: 50%;
+    margin-top: 30%;  
+ }
+
+ .buttondiv {
+    width: 50%;
+    padding-left: 50px; 
+ }
+
+ .wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
