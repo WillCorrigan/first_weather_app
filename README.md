@@ -1,0 +1,1 @@
+First solo React app, tracking the weather and updating the background based on an API response.
